@@ -1,22 +1,51 @@
-# 由于我当前目录下有package.json,要配置运行环境，首先需要下载依赖，执行： npm install 就可以将package.json中的
-# 所有依赖下载下来；和在github上clone一个别人的项目，在本地配置环境时，也要先npm i 才行；
-# (注意，在当前windows环境下，假如有一个项目的配置文件是完整的，我需要拷贝下来使用，一定要包含：
-# package.json, package-lock.json, tsconfig.json, webpack.config.js)
+# SnakeGame
 
-# 1. 在项目目录下 npm init -y 初始化项目，生成 package.json
-# 2. 先下四个依赖： npm i -D webpack webpack-cli typescript ts-loader,
-# 3. 然后下载 npm i -D html-webpack-plugin
-# 4. npm i -D webpack-dev-server
-# 5. npm i -D clean-webpack-plugin
-# 6. npm i -D @babel/core @babel/preset-env babel-loader core-js
+[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-# 2021.3.22 贪食蛇项目，需要在webpack中配置css相关的依赖，这里根据教程，使用的 less
-# npm i -D less less-loader css-loader style-loader
-# 然后，针对样式，仍然要考虑的是浏览器的适配问题，所以还需要下载postcss插件处理
-# npm i -D postcss postcss-loader postcss-preset-env
+## Table of Contents
 
-# 以贪食蛇为例，了解项目的开发流程：有了设计图，搭建游戏界面，两种选择：1. html,div等，统统在js中设置，
-# 通过拼串，实现样式，优点是灵活度比较高，缺点是写起来麻烦，加载起来，没有直接写html快，
-# 2. 传统的方法，结构，表现 行为分离
+- [Background](#background)
+- [Install](#install)
+- [Usage](#usage)
+- [Img](#img)
+- [Maintainers](#maintainers)
+- [Contributing](#contributing)
+- [License](#license)
 
-# 将一个类定义为一个模块，便于后期的维护
+## Background
+
+在TS的语法中，比较方便的写法是根据功能定义，将每一个类定义为一个模块，模块中封装相应的属性和方法，便于后期的维护使用。因此本例以简单的贪吃蛇实现为例，根据TS的语法思想，将食物、游戏控制、蛇、积分面板等分别定义为一个类，实现了相应的逻辑功能。代码中都写了注释，本例对想了解TS类的使用的同学有一定帮助。
+
+## Install
+
+在工程的package.json同级目录下，执行如下语句安装相应依赖：
+
+```sh
+$ npm install --global
+```
+
+## Usage
+
+进入工程根目录，运行程序：
+
+```sh
+$ cd SnakeGame
+# npm run start
+```
+
+
+## Img
+
+效果图是这样的：https://github.com/ibertli/MusicPlayer/blob/master/images/%E6%95%88%E6%9E%9C%E5%9B%BE.png
+
+## Maintainers
+
+[@ibertli](https://github.com/ibertli).
+
+## Contributing
+
+Feel free to dive in! [Open an issue](https://github.com/RichardLitt/standard-readme/issues/new) or submit PRs.
+
+## License
+
+[MIT](LICENSE) © Richard Littauer
