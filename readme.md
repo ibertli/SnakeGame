@@ -21,7 +21,7 @@
 在工程的package.json同级目录下，执行如下语句安装相应依赖：
 
 ```sh
-$ npm install --global
+$ npm i
 ```
 
 ## Usage
