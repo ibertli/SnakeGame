@@ -36,7 +36,7 @@ $ cd SnakeGame
 
 ## Img
 
-效果图是这样的：https://github.com/ibertli/MusicPlayer/blob/master/images/%E6%95%88%E6%9E%9C%E5%9B%BE.png
+![Image text]https://github.com/ibertli/SnakeGame/edit/master/readme.md)
 
 ## Maintainers
 
