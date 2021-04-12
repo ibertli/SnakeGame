@@ -36,7 +36,7 @@ $ cd SnakeGame
 
 ## Img
 
-![Image text]https://github.com/ibertli/SnakeGame/edit/master/readme.md)
+![Image text]https://github.com/ibertli/SnakeGame/blob/master/imgs/%E6%95%88%E6%9E%9C%E5%9B%BE.png)
 
 ## Maintainers
 
